@@ -1,10 +1,17 @@
 # model-bank
 
+## 0.2.0
+
+## Minor Changes
+- Add items list rendering.
+- Add a mocked items list.
+- Add a basic architecture to accomplish the app goal.
+
 ## 0.1.0
 
 ## Minor Changes
-- Add basic configuration to run a React Native project using Expo.
-- Add basic initial view.
+- Add a basic configuration to run a React Native project using Expo.
+- Add a basic initial view.
 
 ## 0.0.1
 
