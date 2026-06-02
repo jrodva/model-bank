@@ -1,5 +1,11 @@
 # model-bank
 
+## 0.1.0
+
+## Minor Changes
+- Add basic configuration to run a React Native project using Expo.
+- Add basic initial view.
+
 ## 0.0.1
 
 ### Patch Changes
