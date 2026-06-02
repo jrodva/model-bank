@@ -4,4 +4,4 @@
 
 ### Patch Changes
 
-- Add a more detailed README.md and the CLAUDE.md generated in function of the first one, this our initial project definition.
+- Add a more detailed README.md and the generated CLAUDE.md file in function of the first one, this is our initial project definition.
