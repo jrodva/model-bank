@@ -1,5 +1,13 @@
 # model-bank
 
+## 1.0.0
+
+### Major Changes
+
+- First major version including:
+  - Transaction List and its related elements.
+  - Documentation about the model bank app.
+
 ## 0.3.0
 
 ## Minor Changes
