@@ -14,6 +14,8 @@ pnpm ios                # Run on iOS simulator
 pnpm android            # Run on Android emulator
 pnpm mock-server        # Start mock API server (required before running the app)
 pnpm tsc --noEmit       # Type-check
+pnpm test               # Run unit tests (vitest, watch mode)
+pnpm test:run           # Run unit tests once
 ```
 
 ## Architecture
