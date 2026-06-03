@@ -1,5 +1,12 @@
 # model-bank
 
+## 0.3.0
+
+## Minor Changes
+- Add images to mock data.
+- Add unit tests and necessary setup.
+- Code optimizations increasing semantic value and destructuring.
+
 ## 0.2.0
 
 ## Minor Changes
