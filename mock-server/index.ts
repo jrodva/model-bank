@@ -41,13 +41,13 @@ const LABELS: Label[] = [
   { name: 'Spotify', imageUrl: null },
   { name: 'Amazon', imageUrl: null },
   { name: 'Netflix Premium Subscription 4K resolution + Disney', imageUrl: null },
-  { name: 'Uber', imageUrl: null },
+  { name: 'Uber', imageUrl: 'https://picsum.photos/seed/item/48/48' },
   { name: 'Airbnb', imageUrl: null },
   { name: 'Apple', imageUrl: null },
-  { name: 'Google ', imageUrl: null },
+  { name: 'Google ', imageUrl: 'https://picsum.photos/seed/item/48/48' },
   { name: 'Salary', imageUrl: null },
   { name: 'Rent', imageUrl: null },
-  { name: 'Supermarket', imageUrl: null },
+  { name: 'Supermarket', imageUrl: 'https://picsum.photos/seed/item/48/48' },
 ]
 
 function generateItems(): Item[] {
