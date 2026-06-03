@@ -4,18 +4,29 @@ import { fetchTransactions } from '../api/transactions'
 import type { Transaction } from '../types/transaction'
 
 const formatAmount = (value: number, currency: string): string => {
-  return new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(value)
+  const style = 'currency'
+
+  return new Intl.NumberFormat('en-US', { style, currency }).format(value)
 }
 
 const toListItem = (tx: Transaction): ListItemData => {
+  const {
+    amount: { currency, value },
+    flagged,
+    id,
+    label: { imageUrl, name },
+    status,
+    type: variant
+  } = tx;
+
   return {
-    id: tx.id,
-    variant: tx.type,
-    status: tx.status,
-    label: tx.label.name,
-    subtitle: formatAmount(tx.amount.value, tx.amount.currency),
-    imageUri: tx.label.imageUrl ?? undefined,
-    flagged: tx.flagged,
+    id,
+    variant,
+    status,
+    label: name,
+    subtitle: formatAmount(value, currency),
+    imageUri: imageUrl ?? undefined,
+    flagged,
   }
 }
 

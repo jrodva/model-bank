@@ -1,11 +1,14 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Home } from './src/pages/Home'
 
+const FIVE_MINUTES_IN_MILLISECONDS = 300000;
+const MAX_QUERY_RETRY_COUNT = 2;
+
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      staleTime: 1000 * 60 * 5,
-      retry: 2,
+      staleTime: FIVE_MINUTES_IN_MILLISECONDS,
+      retry: MAX_QUERY_RETRY_COUNT,
     },
   },
 })
